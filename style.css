@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Phần giới thiệu sách */
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background: #f5f7fa;
+    padding: 80px 0;
+}
+
+.book-cover {
+    width: 280px;
+    height: 400px;
+    background: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Các phần chung */
+.section {
+    padding: 80px 0;
+}
+
+.section h2 {
+    font-weight: bold;
+}
+
+/* Features */
+.feature-box {
+    padding: 30px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Prices */
+.card {
+    margin-bottom: 30px;
+}
+
+.card-body {
+    padding: 40px 20px;
+}
+
+/* Reader's Say */
+.review {
+    padding: 30px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #212529;
+    color: white;
+    padding: 30px 0;
+}
+
+/* Hiển thị trên điện thoại */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+
+    .book-cover {
+        margin-top: 40px;
+        width: 220px;
+        height: 320px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+}
+
+
+.book-image {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .book-image {
+        width: 220px;
+        margin-top: 40px;
+    }
+}
